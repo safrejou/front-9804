@@ -1,0 +1,143 @@
+/*---------- BASIC ----------*/
+body{
+    background-color: white;
+}
+.main{
+    width: 1600px;
+    margin: 0 auto;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.clearfix{
+    clear: both;
+
+}
+
+/*---------- BASIC ----------*/
+
+/*---------- 1 - MENU BBAR ----------*/
+
+.top-menu{
+    width: 100%;
+
+}
+.menu-right{
+    float: right;
+}
+.logo-left{
+    float: left;
+}
+.top-menu .menu-right ul li{
+    display: inline-block;
+}
+.top-menu .menu-right ul li a{
+    display: block;
+    padding: 20px 10px;
+    color: #CACACA;
+}
+.top-menu .menu-right ul li a:hover{
+    text-decoration: none;
+    color: #1abb9c;
+}
+.top-menu .logo-left ul li{
+    display: inline-block;
+    color: #CACACA;
+    padding: 20px 10px;
+}
+
+
+/*---------- 1 - MENU BBAR ----------*/
+
+/*---------- 2 - PIC INTRO ----------*/
+.pic-intro{
+    position: relative;
+
+    background-size: contain;
+}
+.pic-intro img{
+    width: 100%;
+    opacity: 0.7;
+
+}
+.pic-intro .text-block {
+    position: absolute;
+    color: white;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+
+}
+.text-block .name  {
+    background-color: #8F8F8F;
+    margin: 10px;
+    padding: 5px;
+    font-size: 46px;
+
+}
+.text-block .job {
+    background-color: #8F8F8F;
+    margin: 10px;
+    padding: 5px;
+    font-size: 26px;
+
+}
+.pic-intro .social {
+    background-color: #8F8F8F;
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+
+}
+.pic-intro .text-block a{
+    text-decoration: none;
+    color: white;
+}
+/*---------- 2 - PIC INTRO ----------*/
+
+/*---------- 3 - ALL GREEN BAR ----------*/
+.green-bar{
+    background-color: #1BBC9B;
+    color: white;
+    padding: 20px 20px;
+}
+/*---------- 3 - ALL GREEN BAR ----------*/
+
+/*---------- 4 - KYTE INTRO ----------*/
+.container .KYTE{
+    display: inline-block;
+}
+/*---------- 4 - KYTE INTRO ----------*/
+
+/*---------- 5 - THREE TOPIC ----------*/
+/*---------- 5 - THREE TOPIC ----------*/
+
+/*---------- 6 - BOTTON ----------*/
+/*---------- 6 - BOTTON ----------*/
+
+/*---------- 7 - SECOND GREEN BAR ----------*/
+
+/*---------- 7 - SECOND GREEN BAR ----------*/
+
+/*---------- 8 - BLACK SECTION PERTFOLIO ----------*/
+/*---------- 8 - BLACK SECTION PERTFOLIO ----------*/
+
+/*---------- 9 - THIRD GREEN BAR ----------*/
+
+/*---------- 9 - THIRD GREEN BAR ----------*/
+
+/*---------- 10 - BLOG POSTS ----------*/
+/*---------- 10 - BLOG POSTS ----------*/
+
+/*---------- 11 - FORTH GREEN BAR ----------*/
+
+/*---------- 11 - FORTH GREEN BAR ----------*/
+
+/*---------- 12 - FORM SECTION ----------*/
+/*---------- 12 - FORM SECTION ----------*/
+
+/*---------- 13 - FOOTER  ----------*/
+/*---------- 13 - FOOTER  ----------*/
