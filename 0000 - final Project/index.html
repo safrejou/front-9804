@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
 
     <script src="./assets/js/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/customJs.js"></script>
 </head>
 <body>
 <!---------- 1 - MENU BBAR -------->
@@ -57,8 +58,7 @@
                 <a href="#"><i class="fa fa-instagram"></i></a>
                 <a href="#"><i class="fa fa-dribbble"></i></a>
                 <a href="#"><i class="fa fa-telegram"></i></a>
-
-            </a></h3>
+                </h3>
         </div>
     </div>
 
@@ -72,7 +72,7 @@
         </div>
     </div>
 
-        <div class="triangle"></div>
+    <div class="triangle"></div>
 
 
     <div class="clearfix"></div>
@@ -123,9 +123,13 @@
             </div>
             <div class="clearfix"></div>
         </div>
+
         <div class="intro-button">
-            <button type="button" class="btn btn-primary btn-lg">HIRE ME</button>
+            <button type="button" class="btn btn-primary btn-lg">
+                <i class="fa fa-telegram"></i>
+                HIRE ME</button>
         </div>
+
     </div>
 
 
@@ -141,7 +145,7 @@
         </div>
     </div>
 
-        <div class="triangle"></div>
+    <div class="triangle"></div>
 
 
     <!---------- 5 - SECOND GREEN BAR ---------->
@@ -159,6 +163,17 @@
                     deserunt doloribus earum, eius enim eos
                     fugiat illum labore maiores nihil placeat
                     qui recusandae sint sunt.</p>
+            </div>
+
+            <div class="slider">
+                <ul>
+                    <li><img src="./assets/img/slider%20%20(1).jpg" alt="slider-1"></li>
+                    <li><img src="./assets/img/slider%20%20(2).jpg" alt="slider-2"></li>
+                    <li><img src="./assets/img/slider%20%20(3).jpg" alt="slider-3"></li>
+                    <li><img src="./assets/img/slider%20%20(4).jpg" alt="slider-4"></li>
+                    <li><img src="./assets/img/slider%20%20(5).jpg" alt="slider-5"></li>
+                </ul>
+
             </div>
         </div>
         <div class="second-slider-text">
@@ -184,23 +199,25 @@
             <h3 class="green-title">LATEST BLOG POSTS</h3>
         </div>
     </div>
+    <div class="triangle"></div>
 
-        <div class="triangle"></div>
-
-    <div class="clearfix"></div>
 
     <!---------- 7 - THIRD GREEN BAR ---------->
 
 
 
     <!---------- 8 - BLOG POSTS ---------->
-    <div class="blog ">
+    <div class="blog">
+        <div class="clearfix"></div>
         <div class="container">
             <div class="post">
                 <img src="./assets/img/adorable-baby-beautiful-35188.jpg" alt="adorable-baby-beautiful-35188">
                 <div class="date-like">
                     <div class="date">21 MAY 2013 | MACRO,PHOTOGRAPHY</div>
-                    <div class="like">27</div>
+                    <div class="like">
+                        27
+                        <i class="fa fa-heart"></i>
+                    </div>
                     <div class="clearfix"></div>
                 </div>
                 <div class="post-text">
@@ -209,13 +226,17 @@
                         TEXT TEXT TEXT TEXT TEXT TEXT TEXT
                         TEXT TEXT TEXT TEXT TEXT TEXT TEXT </P>
                 </div>
+
             </div>
 
             <div class="post">
                 <img src="./assets/img/beautiful-boat-daylight-273886.jpg" alt="adorable-baby-beautiful-35188">
                 <div class="date-like">
                     <div class="date">15 MAY 2013 | MACRO,PHOTOGRAPHY</div>
-                    <div class="like">17</div>
+                    <div class="like">
+                        17
+                        <i class="fa fa-heart"></i>
+                    </div>
                     <div class="clearfix"></div>
                 </div>
                 <div class="post-text">
@@ -230,7 +251,10 @@
                 <img src="./assets/img/dirt-road-fashion-girl-144474.jpg" alt="adorable-baby-beautiful-35188">
                 <div class="date-like">
                     <div class="date">11 MAY 2013 | MACRO,PHOTOGRAPHY</div>
-                    <div class="like">53</div>
+                    <div class="like">
+                        53
+                        <i class="fa fa-heart"></i>
+                    </div>
                     <div class="clearfix"></div>
                 </div>
                 <div class="post-text">
@@ -245,7 +269,10 @@
                 <img src="./assets/img/boat-ocean-people-33689.jpg" alt="adorable-baby-beautiful-35188">
                 <div class="date-like">
                     <div class="date">9 MAY 2013 | MACRO,PHOTOGRAPHY</div>
-                    <div class="like">35</div>
+                    <div class="like">
+                        35
+                        <i class="fa fa-heart"></i>
+                    </div>
                     <div class="clearfix"></div>
                 </div>
                 <div class="post-text">
@@ -270,7 +297,7 @@
         </div>
     </div>
 
-        <div class="triangle"></div>
+    <div class="triangle"></div>
 
 
     <!---------- 9 - FORTH GREEN BAR ---------->
@@ -281,21 +308,23 @@
     <div class="touch">
         <div class="container">
             <div class="form">
-                <ul>
-                    <li><input type="text" placeholder="YOUR NAME"></li>
-                    <li><input type="email" placeholder="E-MAIL"></li>
-                    <li><input type="text" placeholder="THE SUBJECT"></li>
-                    <li><textarea  cols="30" rows="10" placeholder="YOUR MESSAGE"></textarea></li>
-                </ul>
-
+                <form class="user-info">
+                    <input id="name"  type="text" placeholder="YOUR NAME">
+                    <input id="e-mail"  type="email" placeholder="E-MAIL">
+                    <input id ="subject"  type="text" placeholder="THE SUBJECT">
+                    <textarea id="comment"  maxlength="500" placeholder="YOUR MESSAGE"></textarea>
+                    <button type="submit" class="btn btn-primary btn-lg">
+                        <i class="fa fa-telegram"></i>SUBMIT</button>
+                </form>
             </div>
+
             <div class="details">
                 <ul>
                     <li><h3>CONTACT DETAILS</h3></li>
                     <li><p>contact details contact details contact details <br>
                         contact details contact details contact details <br>
                         contact details contact details contact details <br>
-                         </p></li>
+                    </p></li>
                     <li>
                         <p><i class="fa fa-map-marker"></i>Moonshine Street No:14/05</p>
                     </li>
@@ -307,6 +336,7 @@
                     </li>
                 </ul>
             </div>
+
         </div>
         <div class="clearfix"></div>
     </div>
