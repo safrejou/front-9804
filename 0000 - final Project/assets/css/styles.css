@@ -62,7 +62,6 @@ img {
 /*---------- 2 - PIC INTRO ----------*/
 .pic-intro{
     position: relative;
-
     background-size: contain;
 }
 .pic-intro img{
@@ -79,26 +78,31 @@ img {
     text-align: center;
 
 }
-.text-block .name  {
+.text-block .name strong {
     background-color: #8F8F8F;
     margin: 10px;
-    padding: 5px;
+    padding: 5px 30px;
     font-size: 46px;
 
 }
-.text-block .job {
+.text-block .name{
+    margin-bottom: 14px;
+}
+.job {
     background-color: #8F8F8F;
     margin: 10px;
     padding: 5px;
     font-size: 26px;
 
 }
-.pic-intro .social {
-    background-color: #8F8F8F;
-    margin: 10px;
-    padding: 5px;
-    font-size: 16px;
 
+.pic-intro .social.fa {
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    background-color: #8F8F8F;
 }
 .pic-intro .text-block a{
     text-decoration: none;
@@ -112,6 +116,17 @@ img {
     color: white;
     padding: 20px 20px;
 }
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #1BBC9B;
+    margin-left: 307px;
+    float: left;
+}
+
 /*---------- 3 - ALL GREEN BAR ----------*/
 
 /*---------- 4 - KYTE INTRO ----------*/
@@ -165,29 +180,34 @@ img {
 }
 /*---------- 4 - KYTE INTRO ----------*/
 
-/*---------- 5 - THREE TOPIC ----------*/
-/*---------- 5 - THREE TOPIC ----------*/
 
-/*---------- 6 - BOTTON ----------*/
-/*---------- 6 - BOTTON ----------*/
+/*---------- 5 - SECOND GREEN BAR ----------*/
 
-/*---------- 7 - SECOND GREEN BAR ----------*/
+/*---------- 5 - SECOND GREEN BAR ----------*/
 
-/*---------- 7 - SECOND GREEN BAR ----------*/
+/*---------- 6 - SLIDER PORTFOLIO ----------*/
+.frame-slider{
+    background-color: #333333;
+}
+.frame-slider {
+    color: white;
+}
+.frame-slider p{
+    margin-bottom: 0;
+}
+.frame-slider h3{
+    padding-top: 77px;
+}
+/*---------- 6 - SLIDER PORTFOLIO ----------*/
 
-/*---------- 8 - BLACK SECTION PERTFOLIO ----------*/
-/*---------- 8 - BLACK SECTION PERTFOLIO ----------*/
+/*---------- 7 - THIRD GREEN BAR ----------*/
 
-/*---------- 9 - THIRD GREEN BAR ----------*/
+/*---------- 7 - THIRD GREEN BAR ----------*/
 
-/*---------- 9 - THIRD GREEN BAR ----------*/
-
-/*---------- 10 - BLOG POSTS ----------*/
-/*todo background color doesn't work*/
+/*---------- 8 - BLOG POSTS ----------*/
 .blog {
-    background-color: #F0F0F0;
-    width: 100%;
-
+    /*background-color: #F0F0F0;*/
+    background-image: url("../img/gray-background.jpg");
 }
 .blog .post{
     width: 50%;
@@ -209,14 +229,51 @@ img {
 .blog .date-like .like{
     float: right;
 }
-/*---------- 10 - BLOG POSTS ----------*/
+/*---------- 8 - BLOG POSTS ----------*/
 
-/*---------- 11 - FORTH GREEN BAR ----------*/
+/*---------- 9 - FORTH GREEN BAR ----------*/
 
-/*---------- 11 - FORTH GREEN BAR ----------*/
+/*---------- 9 - FORTH GREEN BAR ----------*/
 
-/*---------- 12 - FORM SECTION ----------*/
-/*---------- 12 - FORM SECTION ----------*/
+/*---------- 10 - FORM SECTION ----------*/
+.touch{
+    background-image: url("../img/Form-background.png");
 
-/*---------- 13 - FOOTER  ----------*/
-/*---------- 13 - FOOTER  ----------*/
+}
+.touch  ul{
+    list-style-type: none;
+}
+.form{
+    float: left;
+}
+.details {
+    float: right;
+    color: white;
+}
+details ul li p .fa{
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+}
+.details ul li p i{
+    margin-right: 13px;
+}
+/*---------- 10 - FORM SECTION ----------*/
+
+/*---------- 11 - FOOTER  ----------*/
+.footer{
+    text-align: center;
+}
+.copyright{
+    color: #656565;
+}
+.footer .social .fa {
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    background-color: transparent;
+    color: #B3B3B3;
+}
+/*---------- 11 - FOOTER  ----------*/
