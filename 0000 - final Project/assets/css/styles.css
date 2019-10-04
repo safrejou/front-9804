@@ -141,36 +141,50 @@ img {
     border-radius: 50%;
 }
 
-.left{
+ .left{
     width: 28%;
     float: left;
     padding-top: 50px ;
 }
-.right{
+ .right{
     width: 70%;
     float: right;
     padding-top: 100px;
     padding-left: 20px;
     margin-left: 2% ;
  }
+.intro-top .right .titr{
+    font-size: 25px;
+    line-height: 40px;
+}
+.intro-top .right .passage{
+    line-height: 30px;
+    text-align: justify;
+}
 .intro-bottom{
     margin-top: 40px;
 
 }
-.first {
+.intro-bottom p{
+    margin-top: 15px;
+    line-height: 30px;
+    text-align: justify;
+}
+.intro-bottom .first {
     width: 30%;
     float: left;
     margin-right: 5%;
 }
-.second{
+.intro-bottom .second{
     width: 30%;
     float: left;
     margin-right: 5%;
 }
- .third {
+.intro-bottom .third {
     width: 30%;
     float: left;
 }
+     /*BUTTON*/
 .intro-button {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -212,18 +226,18 @@ img {
 .frame-slider h3{
     padding-top: 77px;
 }
-.slider{
+.slider, .slider-2{
     position: relative;
     overflow: hidden;
     margin: 20px auto 0 auto;
 }
-.slider ul{
+.slider ul, .slider-2 ul{
     position: relative;
     margin: 0;
     padding: 0;
     height: 200px;
 }
-.slider ul li{
+.slider ul li, .slider-2 ul li{
     position: relative;
     display: block;
     float: left;
@@ -233,7 +247,7 @@ img {
     height: 500px;
     background-color: #333333;
 }
-.slider ul li img{
+.slider ul li img, .slider-2 ul li img{
     display: block;
     max-height:500px;
     max-width:500px;
@@ -241,25 +255,31 @@ img {
     height: 500px;
 }
 a.control-next,
-a.control-pre{
+a.control-pre,
+a.control-next-2,
+a.control-pre-2
+{
     position: absolute;
     z-index: 999;
     display: block;
-    padding: 4% 3%;
+    padding: 2% 2%;
     width: auto;
     height: auto;
     background-color: #B3B3B3;
     color: #FFFFFF;
     font-size: 50px;
-    opacity: 0.8;
+    opacity: 0.4;
     cursor: pointer;
 }
 a.control-next:hover,
-a.control-pre:hover{
+a.control-pre:hover,
+a.control-next-2:hover,
+a.control-pre-2:hover
+{
     opacity: 1;
     -webkit-transition: all ease 0.3s;
 }
-a.control-next{
+a.control-next, a.control-next-2 {
     right: 0;
 
 }
