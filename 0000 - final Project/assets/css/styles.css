@@ -237,6 +237,9 @@ img {
     padding: 0;
     height: 200px;
 }
+#gap{
+    color: #333333;
+}
 .slider ul li, .slider-2 ul li{
     position: relative;
     display: block;
@@ -254,35 +257,7 @@ img {
     width: 500px;
     height: 500px;
 }
-a.control-next,
-a.control-pre,
-a.control-next-2,
-a.control-pre-2
-{
-    position: absolute;
-    z-index: 999;
-    display: block;
-    padding: 2% 2%;
-    width: auto;
-    height: auto;
-    background-color: #B3B3B3;
-    color: #FFFFFF;
-    font-size: 50px;
-    opacity: 0.4;
-    cursor: pointer;
-}
-a.control-next:hover,
-a.control-pre:hover,
-a.control-next-2:hover,
-a.control-pre-2:hover
-{
-    opacity: 1;
-    -webkit-transition: all ease 0.3s;
-}
-a.control-next, a.control-next-2 {
-    right: 0;
 
-}
 /*---------- 6 - SLIDER PORTFOLIO ----------*/
 
 /*---------- 7 - THIRD GREEN BAR ----------*/
@@ -292,6 +267,7 @@ a.control-next, a.control-next-2 {
 /*---------- 8 - BLOG POSTS ----------*/
 .blog {
     background-color: #F0F0F0;
+    padding: 50px 0;
 
 }
 .blog .post{
@@ -316,6 +292,10 @@ a.control-next, a.control-next-2 {
 }
 .blog .date-like .like{
     float: right;
+}
+.blog .post .post-text{
+    background-color: white;
+    padding: 15px;
 }
 /*---------- 8 - BLOG POSTS ----------*/
 

@@ -22,36 +22,22 @@ $(document).ready(function () {
         marginLeft: -slideWidth
     });
 
-    $(".slider ul li:last-child").prependTo(".slider ul");
-
-
-    function moveLeft() {
-        $(".slider ul").animate({
-            right: +slideWidth
-        }, 300, function () {
-            $(".slider ul li:last-child").prependTo(".slider ul");
-            $(".slider ul").css('right', '0');
-        });
-    }
 
     function moveRight(){
         $(".slider ul").animate({
             left: -slideWidth
-        },500,function(){
+        },2000,function(){
             $(".slider ul li:first-child").appendTo(".slider ul");
             $(".slider ul").css('left', '0');
         });
     }
 
-    $("a.control-next").click(function (e) {
+    setInterval(function () {
         moveRight();
-        return false;
-    });
 
-    $("a.control-pre").click(function (e) {
-        moveLeft();
-        return false;
-    });
+    }, 5000);
+
+
 // ---------- /6 - slider --------------
 // -------- 6 - slider 2 --------------
     var slideCount2 = $(".slider-2 ul li").length;
@@ -75,36 +61,21 @@ $(document).ready(function () {
         marginLeft: -slideWidth2
     });
 
-    $(".slider-2 ul li:last-child").prependTo(".slider-2 ul");
-
-
-    function moveLeft2() {
-        $(".slider-2 ul").animate({
-            right: +slideWidth2
-        }, 300, function () {
-            $(".slider-2 ul li:last-child").prependTo(".slider-2 ul");
-            $(".slider-2 ul").css('right', '0');
-        });
-    }
 
     function moveRight2(){
-        $(".slider ul").animate({
+        $(".slider-2 ul").animate({
             left: -slideWidth2
-        },500,function(){
+        },4000,function(){
             $(".slider-2 ul li:first-child").appendTo(".slider-2 ul");
             $(".slider-2 ul").css('left', '0');
         });
     }
-
-    $("a.control-next-2").click(function (e) {
+    setInterval(function () {
         moveRight2();
-        return false;
-    });
 
-    $("a.control-pre-2").click(function (e) {
-        moveLeft2();
-        return false;
-    });
+    }, 5000);
+
+
 // -------- /6 - slider 2 --------------
 
 
